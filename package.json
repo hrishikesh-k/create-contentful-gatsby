@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "@stackbit/cli": "0.3.48",
+    "@stackbit/cms-contentful": "0.4.24",
+    "@stackbit/types": "0.10.14",
+    "@types/node": "20.10.0",
+    "@types/react": "18.2.38",
+    "@types/react-dom": "18.2.17",
+    "dotenv": "16.3.1",
+    "gatsby": "5.12.11",
+    "gatsby-cli": "5.12.4",
+    "gatsby-graphiql-explorer": "3.11.0",
+    "gatsby-plugin-image": "3.12.3",
+    "gatsby-source-contentful": "8.12.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "5.3.2"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "dev": "gatsby develop",
+    "serve": "gatsby serve",
+    "stackbit:dev": "stackbit dev --host 127.0.0.1 --port 8000",
+    "typecheck": "tsc"
+  }
+}
